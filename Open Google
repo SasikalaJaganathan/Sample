@@ -8,6 +8,7 @@ namespace OpenGoogle
         static void Main(string[] args)
         {
            driver.navigate().GoToUrl("http:www.google.com");
+           driver.exit();
         }
     }
 }
