@@ -1,0 +1,13 @@
+Using system.selenium;
+using System;
+
+namespace OpenGoogle
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+           driver.navigate().GoToUrl("http:www.google.com");
+        }
+    }
+}
